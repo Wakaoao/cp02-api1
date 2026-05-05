@@ -12,7 +12,7 @@ Docker
 Swagger (Springdoc)
 📁 Estrutura do Projeto
 
-.
+```
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -26,6 +26,7 @@ Swagger (Springdoc)
 ├── pom.xml
 ├── mvnw
 └── README.md
+```
 
 ⚙️ Pré-requisitos
 
