@@ -66,7 +66,7 @@ docker exec -it mysql-api mysql -u root -p
 
 Senha: root_pwd
 
-#▶️ Como rodar a aplicação
+# ▶️ Como rodar a aplicação
 🔹 Usando Maven Wrapper
 ```
 ./mvnw spring-boot:run
@@ -75,31 +75,31 @@ Senha: root_pwd
 ```
 mvn spring-boot:run
 ```
-#🌐 Acessando a API
+# 🌐 Acessando a API
 
 http://localhost:8080
 A aplicação roda por padrão em:
 ```
 http://localhost:8080
 ```
-#📄 Documentação (Swagger)
+# 📄 Documentação (Swagger)
 
 ##Disponível em:
 ```
 http://localhost:8080/
 ```
-#📌 Funcionalidades
+# 📌 Funcionalidades
 CRUD de entidades:
 Brasil
 Japão
 Persistência com JPA/Hibernate
 Criação automática das tabelas (ddl-auto=update)
-#🛑 Parar e remover o container
+# 🛑 Parar e remover o container
 ```
 docker stop mysql-api
 docker rm mysql-api
 ```
 
-#👨‍💻 Autor
+# 👨‍💻 Autor
 ## - Enzo Wakao
 
