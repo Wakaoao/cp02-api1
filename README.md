@@ -1,44 +1,59 @@
-📦 CP02 - API 1 (Spring Boot)
+# 📦 CP02 - API 1 (Spring Boot)
 
-API desenvolvida em Spring Boot para gerenciamento de dados relacionados a Brasil e Japão, utilizando MySQL como banco de dados.
+API desenvolvida em **Spring Boot** para gerenciamento de dados relacionados a Brasil e Japão, utilizando **MySQL** como banco de dados.
 
-🚀 Tecnologias Utilizadas
-Java 17+
-Spring Boot
-Spring Data JPA
-Maven
-MySQL
-Docker
-Swagger (Springdoc)
-📁 Estrutura do Projeto
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- Maven
+- MySQL
+- Docker
+- Swagger (Springdoc)
+
+---
+
+## 📁 Estrutura do Projeto
+
 .
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── cp02/cp02_api1_EnzoWakao/
-│   │   │       ├── controller/
-│   │   │       ├── model/
-│   │   │       └── repository/
-│   │   └── resources/
-│   │       └── application.properties
-│   └── test/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── cp02/cp02_api1_EnzoWakao/
+│ │ │ ├── controller/
+│ │ │ ├── model/
+│ │ │ └── repository/
+│ │ └── resources/
+│ │ └── application.properties
+│ └── test/
 ├── pom.xml
 ├── mvnw
 └── README.md
-⚙️ Pré-requisitos
+
+---
+
+## ⚙️ Pré-requisitos
 
 Antes de rodar o projeto, você precisa ter instalado:
 
-Java 17 ou superior
-Maven (ou usar o mvnw)
-Docker
-🐳 Subindo o banco de dados com Docker
+- Java 17 ou superior
+- Maven (ou usar o `mvnw`)
+- Docker
 
-O projeto está configurado para usar MySQL, conforme o application.properties:
+---
 
+## 🐳 Subindo o banco de dados com Docker
+
+O projeto está configurado para usar **MySQL**, conforme o `application.properties`:
+
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/api
 spring.datasource.username=root
 spring.datasource.password=root_pwd
+
 🔹 Comando para subir o MySQL
 docker run -d \
   --name mysql-api \
