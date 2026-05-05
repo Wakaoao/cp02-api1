@@ -34,6 +34,7 @@ Antes de rodar o projeto, você precisa ter instalado:
 Java 17 ou superior
 Maven (ou usar o mvnw)
 Docker
+
 # 🐳 Subindo o banco de dados com Docker
 
 O projeto está configurado para usar MySQL, conforme o application.properties:
@@ -41,7 +42,8 @@ O projeto está configurado para usar MySQL, conforme o application.properties:
 spring.datasource.url=jdbc:mysql://localhost:3306/api
 spring.datasource.username=root
 spring.datasource.password=root_pwd
-#🔹 Comando para subir o MySQL
+
+# 🔹 Comando para subir o MySQL
 ```
 docker run -d \
   --name mysql-api \
@@ -50,7 +52,7 @@ docker run -d \
   -p 3306:3306 \
   mysql:8
 ```
-#🔌 Como acessar o banco de dados
+# 🔌 Como acessar o banco de dados
 ✔️ Via cliente (DBeaver, Workbench, etc.)
 Host: localhost
 Porta: 3306
